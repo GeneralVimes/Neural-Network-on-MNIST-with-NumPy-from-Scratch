@@ -159,7 +159,7 @@ class NN:
             if (prediction == y):
                 total_correct += 1
         print('Accuarcy Test: ',total_correct/len(X_test))
-        return total_correct/np.float(len(X_test))
+        return total_correct/np.float32(len(X_test))
 
 ####################################################################################
 
